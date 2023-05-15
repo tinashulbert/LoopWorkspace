@@ -30,9 +30,7 @@ jobs:
           submodules: recursive
             # Customize Loop: Download and apply patches
       - name: Customize Loop
-        run: |
-
-          # For each patch, edit comment line (keep the #) then update curl (and remove the #)
+        run: 
 
           # Submodule Loop patches:
           # Loop: LoopConstants.swift: tinashulbert-auto-bolus-50%-vs-2
