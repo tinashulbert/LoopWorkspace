@@ -37,7 +37,7 @@ jobs:
 
           # Submodule Loop patches:
           # Loop: LoopConstants.swift: tinashulbert-auto-bolus-50%-vs-2
-          curl https://github.com/tinashulbert/Loop/commit/25b700ab22b237b5f51cffefbf9bd68060bbe211.patch | git apply -v --directory=Loop
+          curl https://github.com/tinashulbert/Loop/commit/14a6d4f765d5aa4b0b43212f8db96e18ce55bfbe.patch | git apply -v --directory=Loop
 
           # Submodule LoopKit patches:
           # Loopkit: Guardrail+Settings.swift: tinashulbert-patch-target-limits
