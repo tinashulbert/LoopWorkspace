@@ -37,11 +37,11 @@ jobs:
 
           # Submodule Loop patches:
           # Loop: LoopConstants.swift: tinashulbert-auto-bolus-50%-vs-2
-          curl https://github.com/tinashulbert/Loop/commit/25b700ab22b237b5f51cffefbf9bd68060bbe211 .patch | git apply -v --directory=Loop
+          curl https://github.com/tinashulbert/Loop/commit/25b700ab22b237b5f51cffefbf9bd68060bbe211.patch | git apply -v --directory=Loop
 
           # Submodule LoopKit patches:
           # Loopkit: Guardrail+Settings.swift: tinashulbert-patch-target-limits
-          curl https://github.com/tinashulbert/Loopkit/commit/78245a34ae881e123d27b6a59107a3ccae961e6a .patch | git apply -v --directory=Loopkit
+          curl https://github.com/tinashulbert/Loopkit/commit/78245a34ae881e123d27b6a59107a3ccae961e6a.patch | git apply -v --directory=Loopkit
 
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
